@@ -1,0 +1,88 @@
+@import './scss/style.css';
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.card {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.card .card-border {
+    max-width: 1103px;
+    margin: 22px auto;
+}
+
+.card .error-color{
+	color: red !important;
+
+}
+
+.card .btn-primary{
+	margin-right: 15px;
+}
+
+input#acck {
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-left: 19px;
+}
+
+.right-btn-main{
+
+	text-align: right;
+}
+
+.single-btn-main{
+	text-align: right;
+}
+.btn.btn-primary {
+    padding: 7px 30px;
+}
+
+
+.payment-method .form-group {
+    width: 50%;
+    display: block;
+    
+}
+
+.payment-method .form-group input{
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.react-datepicker-wrapper{
+	width: 100%;
+}
+
+.react-datepicker-wrapper input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+@media(max-width:767px){
+	button.btn-pill.pull-left.btn.btn-primary{
+		width: 40%;
+
+	}
+
+	button.btn-pill.pull-right.btn.btn-primary{
+		width: 40%;
+
+	}
+
+	.right-btn-main{
+
+	text-align: center;
+}
+
+.single-btn-main{
+	text-align: center;
+}
+
+}
